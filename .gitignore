@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# VS Code
+.vscode/
+
+# Images and Outputs (excluding from repo)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.gif
+*.svg
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.tex
+
+# Scripts (reverse engineering)
+reverse_engineer.py
+detailed_match.py
+advanced_validation.py
+
+# Data - keep anonymized_data but ignore everything else
+archive/*
+!archive/anonymized_data/
+!archive/anonymized_data/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
