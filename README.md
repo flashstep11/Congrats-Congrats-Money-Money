@@ -224,6 +224,6 @@ Raw Data → Feature Engineering → Ridge Regression → Meta-Labeling (RF) →
 - Implemented daily rebalancing with transaction costs
 
 ### Phase 4: Rigorous Backtesting
-- Walk-forward testing on out-of-sample test set
+- Temporal testing on out-of-sample test set
 - Calculated comprehensive performance metrics
 - Analyzed IC patterns and cost impacts
