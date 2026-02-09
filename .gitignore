@@ -51,3 +51,7 @@ archive/*
 # OS
 .DS_Store
 Thumbs.db
+
+# Parquet files (too large for repo)
+*.parquet
+*.pkl
